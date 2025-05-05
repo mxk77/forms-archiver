@@ -48,12 +48,12 @@
             materialButton4.Depth = 0;
             materialButton4.HighEmphasis = true;
             materialButton4.Icon = null;
-            materialButton4.Location = new Point(137, 302);
+            materialButton4.Location = new Point(143, 329);
             materialButton4.Margin = new Padding(4, 6, 4, 6);
             materialButton4.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton4.Name = "materialButton4";
             materialButton4.NoAccentTextColor = Color.Empty;
-            materialButton4.Size = new Size(121, 36);
+            materialButton4.Size = new Size(126, 36);
             materialButton4.TabIndex = 5;
             materialButton4.Text = "Створити архів";
             materialButton4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -70,7 +70,7 @@
             materialTextBox1.Depth = 0;
             materialTextBox1.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
             materialTextBox1.LeadingIcon = null;
-            materialTextBox1.Location = new Point(136, 226);
+            materialTextBox1.Location = new Point(142, 247);
             materialTextBox1.MaxLength = 50;
             materialTextBox1.MouseState = MaterialSkin.MouseState.OUT;
             materialTextBox1.Multiline = false;
@@ -88,13 +88,13 @@
             tableLayoutPanel1.SetColumnSpan(materialListBox1, 3);
             materialListBox1.Depth = 0;
             materialListBox1.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialListBox1.Location = new Point(8, 85);
+            materialListBox1.Location = new Point(8, 97);
             materialListBox1.MouseState = MaterialSkin.MouseState.HOVER;
             materialListBox1.Name = "materialListBox1";
             tableLayoutPanel1.SetRowSpan(materialListBox1, 2);
             materialListBox1.SelectedIndex = -1;
             materialListBox1.SelectedItem = null;
-            materialListBox1.Size = new Size(381, 126);
+            materialListBox1.Size = new Size(397, 126);
             materialListBox1.TabIndex = 3;
             // 
             // materialButton3
@@ -105,12 +105,12 @@
             materialButton3.Depth = 0;
             materialButton3.HighEmphasis = true;
             materialButton3.Icon = null;
-            materialButton3.Location = new Point(266, 26);
+            materialButton3.Location = new Point(277, 29);
             materialButton3.Margin = new Padding(4, 6, 4, 6);
             materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton3.Name = "materialButton3";
             materialButton3.NoAccentTextColor = Color.Empty;
-            materialButton3.Size = new Size(122, 36);
+            materialButton3.Size = new Size(127, 36);
             materialButton3.TabIndex = 2;
             materialButton3.Text = "Директорія збереження";
             materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -126,12 +126,12 @@
             materialButton2.Depth = 0;
             materialButton2.HighEmphasis = true;
             materialButton2.Icon = null;
-            materialButton2.Location = new Point(137, 26);
+            materialButton2.Location = new Point(143, 29);
             materialButton2.Margin = new Padding(4, 6, 4, 6);
             materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton2.Name = "materialButton2";
             materialButton2.NoAccentTextColor = Color.Empty;
-            materialButton2.Size = new Size(121, 36);
+            materialButton2.Size = new Size(126, 36);
             materialButton2.TabIndex = 1;
             materialButton2.Text = "Оберіть директорії";
             materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -147,12 +147,12 @@
             materialButton1.Depth = 0;
             materialButton1.HighEmphasis = true;
             materialButton1.Icon = null;
-            materialButton1.Location = new Point(9, 26);
+            materialButton1.Location = new Point(9, 29);
             materialButton1.Margin = new Padding(4, 6, 4, 6);
             materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton1.Name = "materialButton1";
             materialButton1.NoAccentTextColor = Color.Empty;
-            materialButton1.Size = new Size(120, 36);
+            materialButton1.Size = new Size(126, 36);
             materialButton1.TabIndex = 0;
             materialButton1.Text = "Оберіть файли";
             materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -188,7 +188,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(397, 434);
+            tableLayoutPanel1.Size = new Size(413, 473);
             tableLayoutPanel1.TabIndex = 6;
             // 
             // materialLabel2
@@ -197,7 +197,7 @@
             tableLayoutPanel1.SetColumnSpan(materialLabel2, 3);
             materialLabel2.Depth = 0;
             materialLabel2.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialLabel2.Location = new Point(8, 355);
+            materialLabel2.Location = new Point(8, 385);
             materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             materialLabel2.Name = "materialLabel2";
             materialLabel2.Size = new Size(1, 0);
@@ -208,17 +208,17 @@
             label1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label1.Location = new Point(8, 230);
+            label1.Location = new Point(8, 262);
             label1.Name = "label1";
-            label1.Size = new Size(122, 42);
+            label1.Size = new Size(128, 21);
             label1.TabIndex = 8;
-            label1.Text = "Розташування архіву:";
+            label1.Text = "Назва архіву:";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(413, 514);
+            ClientSize = new Size(429, 553);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
